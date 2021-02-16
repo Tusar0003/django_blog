@@ -7,13 +7,13 @@ posts = [
         'author': 'CoreyMS',
         'title': 'Blog Post 1',
         'content': 'First post content',
-        'date_pasted': '15th Feb 2021'
+        'date_posted': '15th Feb 2021'
     },
     {
         'author': 'Jane Doe',
         'title': 'Blog Post 2',
         'content': 'Second post content',
-        'date_pasted': '15th Feb 2021'
+        'date_posted': '15th Feb 2021'
     }
 ]
 
