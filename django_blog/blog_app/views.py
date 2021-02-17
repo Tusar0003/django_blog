@@ -5,11 +5,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def home(request):
-    # all_posts = Post.objects.all()
-    context = {
-        'posts': Post.objects.all()
-    }
-    return render(request, 'blog/home.html', context)
+    return render(request, 'blog/home.html', {'posts': Post.objects.all()})
 
 
 def about(request):

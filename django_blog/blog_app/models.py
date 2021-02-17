@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils import timezone
-from django.contrib.auth.models import User   # Default users
+from django.contrib.auth.models import User   # Default users_app
 
 
 class Post(models.Model):
